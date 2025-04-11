@@ -7,11 +7,3 @@ This project implements a custom environment (`TemptationBridgeEnv`) where agent
 
 We train RL agents using `Stable-Baselines3` and analyze their emergent behavior under different loyalty shaping parameters.
 
-## 📂 Project Structure
-
-- `environment/`: Custom PettingZoo-compatible environment
-- `training/`: Scripts to train and evaluate agents
-- `analysis/`: Tools for plotting and behavior analysis
-- `results/`: Pretrained models and graph outputs
-- `paper/`: Research paper draft and citations
-- `utils/`: Helper wrappers and utilities
