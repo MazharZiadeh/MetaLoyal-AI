@@ -1,6 +1,5 @@
 import matplotlib.pyplot as plt
 
-# Load logs
 with open("results/reward_log.txt", "r") as f:
     rewards = list(map(float, f.read().split(",")))
 
@@ -10,7 +9,6 @@ with open("results/loyalty_log.txt", "r") as f:
 with open("results/betrayal_log.txt", "r") as f:
     betrayals = list(map(int, f.read().split(",")))
 
-# Plotting
 plt.figure(figsize=(12, 5))
 
 plt.subplot(1, 2, 1)
